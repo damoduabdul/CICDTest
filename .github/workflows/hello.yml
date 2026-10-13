@@ -10,3 +10,6 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello Abdul!"
+
+      - name: Show Current Directory
+        run: pwd
